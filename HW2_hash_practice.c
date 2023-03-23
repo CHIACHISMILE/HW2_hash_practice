@@ -1,3 +1,8 @@
+// Fundamental data structure & algorithm
+// HW2_03_23_2023
+// C language, Encoding = UTF-8
+// written by 醫工三 b812109032 許家齊
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
