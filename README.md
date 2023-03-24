@@ -9,4 +9,5 @@ The txt data "hw2_data.txt" must put in the same folder with your code.
 
 
 # Questions
-在將字串轉為hash編碼時，我是將文字的第一個字母轉成ASCII加上第二個字母轉成ASCII...將單字加總完成後除以hash的總長度取餘數當坐其儲存在hash表中的index值。但我有試過若只取第一個字母而已竟然也可以成功分配？！想請問老師這是為什麼呢？
+在將字串轉為hash編碼時，我是將文字的第一個字母轉成ASCII加上第二個字母轉成ASCII...將單字加總完成後再除以hash表的總長度取餘數當作其儲存在hash表中的index值。
+神奇的是我有試過若只取第一個字母而已竟然也可以成功分配？！想請問老師可以為我解惑嗎？
