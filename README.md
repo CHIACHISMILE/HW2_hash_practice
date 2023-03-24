@@ -141,8 +141,21 @@ void display(WordEntry** hash_table) {
 ```
 
 # Result
-<img width="1503" alt="Screen Shot 2023-03-24 at 3 39 29 PM" src="https://user-images.githubusercontent.com/86188415/227456138-47d2c58f-d31e-40b2-84e4-54c2bb2899fa.png">
-
+```
+Word            Count
+--------------------
+Steak               46
+Fries               76
+Burger              196
+Pizza               83
+Potato              3
+Rib                 33
+Coke                145
+Cheese              234
+Taco                57
+Pho                 19
+Unique word count: 10
+```
 
 # Questions
 在將字串轉為hash編碼時，我是將文字的第一個字母轉成ASCII加上第二個字母轉成ASCII...將單字加總完成後再除以hash表的總長度取餘數當作其儲存在hash表中的index值。
