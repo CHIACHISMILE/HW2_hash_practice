@@ -36,21 +36,6 @@ int main() {
     }
 
     while (fscanf(file, "%s", word) != EOF) {  // 逐行讀取文件中的單字
-        // 將單字轉換成小寫
-        for (int i = 0; i < strlen(word); i++) {
-            word[i] = tolower(word[i]);
-        }
-        // 只保留單字中的字母
-        char* p = word;
-        int i = 0;
-        while (*p != '\0') {
-            if (isalpha(*p)) {  // 如果是字母，則轉換成小寫
-                word[i] = tolower(*p);
-                i++;
-            }
-            p++;
-        }
-        word[i] = '\0';
         if (strlen(word) > 0) {  // 如果單字不為空，則插入到hash表中
             insert(word, hash_table);
         }
