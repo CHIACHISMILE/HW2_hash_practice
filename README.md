@@ -23,7 +23,7 @@
 順帶說明一下這個檔案的格式是DOS/Windows，也就是CR+LF做每一行的結尾。雖然理論上不會影響到大部分同學的程式執行，但在Mac/Linux上寫C/C++的同學就需要特別注意一下了。
 
 # Data path
-The txt data "hw2_data.txt" must put in the same folder with your code.
+The data file "hw2_data.txt" must be placed in the same folder as the code file.
 
 # Code
 [HW2_hash_practice.c](HW2_hash_practice.c)
