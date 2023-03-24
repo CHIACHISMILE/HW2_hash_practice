@@ -26,7 +26,7 @@
 The txt data "hw2_data.txt" must put in the same folder with your code.
 
 # Code
-[c](HW2_hash_practice.c)
+[HW2_hash_practice.c](HW2_hash_practice.c)
 ```c
 // Fundamental data structure & algorithm
 // HW2_03_23_2023
