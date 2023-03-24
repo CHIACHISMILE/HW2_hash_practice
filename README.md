@@ -1,6 +1,9 @@
 # HW2_hash_practice
 醫工三 b812109032 許家齊 資料結構與演算法 HW2_hash_practice 雜湊練習
 
+# Data 
+The txt data "hw2_data.txt" must put in the same folder with your code.
+
 # Result
 <img width="1503" alt="Screen Shot 2023-03-24 at 3 39 29 PM" src="https://user-images.githubusercontent.com/86188415/227456138-47d2c58f-d31e-40b2-84e4-54c2bb2899fa.png">
 
